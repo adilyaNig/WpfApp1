@@ -9,5 +9,6 @@ namespace WpfApp1.DBConnection
     public class Connection
     {
         public static Biblioteka_NigamatullinaEntities biblioteka = new Biblioteka_NigamatullinaEntities();
+
     }
 }
