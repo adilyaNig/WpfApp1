@@ -13,17 +13,26 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace WpfApp1
+namespace WpfApp1.Pages
 {
     /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
+    /// Логика взаимодействия для Authorization.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Authorization : Page
     {
-        public MainWindow()
+        public Authorization()
         {
             InitializeComponent();
-            newFrame.NavigationService.Navigate(new Pages.AuthorizationPage());
+        }
+
+        private void loginBtn_Click(object sender, RoutedEventArgs e)
+        {
+           
+        }
+
+        private void loginReaderBtn_Click(object sender, RoutedEventArgs e)
+        {
+            
         }
     }
 }
