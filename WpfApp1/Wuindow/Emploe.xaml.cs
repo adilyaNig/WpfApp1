@@ -11,17 +11,38 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using WpfApp1.Pages;
 
 namespace WpfApp1.Window
 {
     /// <summary>
     /// Логика взаимодействия для Emploe.xaml
     /// </summary>
-    public partial class Emploe : Window
+    public partial class Emploe
     {
         public Emploe()
         {
             InitializeComponent();
+        }
+
+        private void readerBtn_Click(object sender, RoutedEventArgs e)
+        {
+            menuFr.NavigationService.Navigate(new ReadersPage());
+        }
+
+        private void bookBtn_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void reportBtn_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void exitBtn_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

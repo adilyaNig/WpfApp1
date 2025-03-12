@@ -13,17 +13,16 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace WpfApp1
+namespace WpfApp1.Pages
 {
     /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
+    /// Логика взаимодействия для ReadersPage.xaml
     /// </summary>
-    public partial class MainWindow
+    public partial class ReadersPage : Page
     {
-        public MainWindow()
+        public ReadersPage()
         {
             InitializeComponent();
-            newFrame.NavigationService.Navigate(new Pages.AuthorizationPage());
         }
     }
 }

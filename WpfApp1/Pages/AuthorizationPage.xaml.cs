@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using WpfApp1.Window;
 
 namespace WpfApp1.Pages
 {
@@ -27,7 +28,7 @@ namespace WpfApp1.Pages
 
         private void loginBtn_Click(object sender, RoutedEventArgs e)
         {
-            NavigationService.Navigate(new MenuEmployee());
+            NavigationService.Navigate(new Emploe());
         }
 
         private void loginReaderBtn_Click(object sender, RoutedEventArgs e)
